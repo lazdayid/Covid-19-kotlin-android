@@ -6,6 +6,6 @@ import retrofit2.http.*
 
 interface ApiEndpoint {
 
-    @GET("agen")
-    fun dataIndonesia(): Call<MainModel>
+    @GET("indonesia")
+    fun getData(): Call<List<MainModel>>
 }
